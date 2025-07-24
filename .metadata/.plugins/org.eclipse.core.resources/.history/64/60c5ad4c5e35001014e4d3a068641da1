@@ -1,0 +1,5 @@
+package com.udemyfullstack.microservicios.app.usuarios.models.entity;
+
+public class Alumno {
+
+}
