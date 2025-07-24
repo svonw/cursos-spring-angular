@@ -1,0 +1,24 @@
+# Eclipse
+.metadata/
+.recommenders/
+.settings/
+.project
+.classpath
+bin/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# macOS
+.DS_Store
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Logs
+*.log

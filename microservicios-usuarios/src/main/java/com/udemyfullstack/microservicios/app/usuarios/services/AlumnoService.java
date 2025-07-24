@@ -1,17 +1,8 @@
 package com.udemyfullstack.microservicios.app.usuarios.services;
 
-import java.util.Optional;
-
 import com.udemyfullstack.microservicios.app.usuarios.models.entity.Alumno;
+import com.udemyfullstack.microservicios.generic.service.GenericService;
 
-public interface AlumnoService {
-
-	Iterable<Alumno> findAll();
-
-	Optional<Alumno> findById(Long id);
-
-	Alumno save(Alumno alumno);
-
-	void deleteById(Long id);
+public interface AlumnoService extends GenericService<Alumno> {
 
 }
