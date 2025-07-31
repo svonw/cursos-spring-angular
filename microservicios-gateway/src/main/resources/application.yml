@@ -9,7 +9,6 @@ eureka:
 spring:
   application:
     name: microservicios-gateway
-
   cloud:
     gateway:
       routes:
@@ -17,3 +16,7 @@ spring:
           uri: lb://microservicios-usuarios
           predicates:
             - Path=/api/alumnos/**
+        - id: microservicio-cursos
+          uri: lb://microservicios-cursos
+          predicates:
+            - Path=/api/cursos/**

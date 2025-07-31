@@ -32,6 +32,11 @@
 	</properties>
 	<dependencies>
 	<dependency>
+	<groupId>com.udemyfullstack.microservicios.generic.alumnos</groupId>
+	<artifactId>generic-alumnos</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	<dependency>
 		<groupId>com.udemyfullstack.microservicios.generic</groupId>
 	<artifactId>generic-microservicios</artifactId>
 	<version>0.0.1-SNAPSHOT</version>

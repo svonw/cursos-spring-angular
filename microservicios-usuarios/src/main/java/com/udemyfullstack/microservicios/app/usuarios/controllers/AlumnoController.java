@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.udemyfullstack.microservicios.app.usuarios.models.entity.Alumno;
 import com.udemyfullstack.microservicios.app.usuarios.services.AlumnoService;
+import com.udemyfullstack.microservicios.generic.alumnos.models.entity.Alumno;
 import com.udemyfullstack.microservicios.generic.controllers.GenericController;
 
 @RestController
