@@ -3,6 +3,7 @@ package com.udemyfullstack.microservicios.app.usuarios.controllers;
 import java.util.Optional;
 
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -29,6 +30,11 @@ public class AlumnoController extends GenericController<Alumno, AlumnoService> {
 		alumnoDb.setEmail(alumno.getEmail());
 
 		return ResponseEntity.ok(service.save(alumnoDb));
+	}
+
+	@GetMapping("/filtrar/{texto}")
+	public ResponseEntity<?> filtrar(@PathVariable String texto) {
+		return ResponseEntity.ok(service.finByNombreOrApellido(texto));
 	}
 
 }
