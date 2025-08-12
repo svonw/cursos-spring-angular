@@ -1,7 +1,10 @@
 package com.udemyfullstack.microservicios.app.examenes.models.entity;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -29,8 +32,13 @@ public class Examen {
 	@Column(name = "create_at")
 	private Date createAt;
 
-	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
+	@JsonIgnoreProperties(value = { "examen" }, allowSetters = true)
+	@OneToMany(mappedBy = "examen", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
 	private List<Pregunta> preguntas;
+
+	public Examen() {
+		this.preguntas = new ArrayList();
+	}
 
 	@PrePersist
 	public void prePersist() {
@@ -59,6 +67,25 @@ public class Examen {
 
 	public void setCreateAt(Date createAt) {
 		this.createAt = createAt;
+	}
+
+	public List<Pregunta> getPreguntas() {
+		return preguntas;
+	}
+
+	public void setPreguntas(List<Pregunta> preguntas) {
+		this.preguntas.clear();
+		preguntas.forEach(p -> this.addPregunta(p));
+	}
+
+	public void addPregunta(Pregunta pregunta) {
+		this.preguntas.add(pregunta);
+		pregunta.setExamen(this);
+	}
+
+	public void removePregunta(Pregunta pregunta) {
+		this.preguntas.remove(pregunta);
+		pregunta.setExamen(null);
 	}
 
 }
