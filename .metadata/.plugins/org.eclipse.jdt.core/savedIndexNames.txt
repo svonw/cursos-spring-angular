@@ -1,5 +1,4 @@
 INDEX VERSION 1.134+/Users/sara/Documents/microservicios_test_udemy/.metadata/.plugins/org.eclipse.jdt.core
-137345663.index
 2189392628.index
 2834354759.index
 1247461419.index
@@ -14,12 +13,10 @@ INDEX VERSION 1.134+/Users/sara/Documents/microservicios_test_udemy/.metadata/.p
 3377527766.index
 808818274.index
 2685498462.index
-2752492082.index
 3966873056.index
 2284410010.index
 2546177972.index
 2182838859.index
-3396342121.index
 2828414974.index
 2536569980.index
 1127907637.index
@@ -30,15 +27,11 @@ INDEX VERSION 1.134+/Users/sara/Documents/microservicios_test_udemy/.metadata/.p
 2640754889.index
 3214701603.index
 3322630107.index
-2731340605.index
 428091033.index
 3667546966.index
 4209039238.index
-3021312210.index
-3391740436.index
 3343823238.index
 2350659455.index
-2958049875.index
 2440234068.index
 3273144066.index
 1777111700.index
@@ -46,10 +39,10 @@ INDEX VERSION 1.134+/Users/sara/Documents/microservicios_test_udemy/.metadata/.p
 2165305383.index
 2530352325.index
 844018964.index
+3505969280.index
 1976973874.index
 3282507055.index
 823093576.index
-2647832723.index
 1056007105.index
 59648959.index
 3914658538.index
@@ -63,12 +56,8 @@ INDEX VERSION 1.134+/Users/sara/Documents/microservicios_test_udemy/.metadata/.p
 1670943870.index
 577542973.index
 3556802924.index
-3298121931.index
-2943796439.index
 2672307958.index
 2701516406.index
-1674185980.index
-2222547457.index
 20575224.index
 583827868.index
 1644280447.index
@@ -95,7 +84,6 @@ INDEX VERSION 1.134+/Users/sara/Documents/microservicios_test_udemy/.metadata/.p
 2940421858.index
 4216812060.index
 1047343267.index
-4017304936.index
 4274131990.index
 2238230218.index
 2604890172.index
@@ -117,7 +105,6 @@ INDEX VERSION 1.134+/Users/sara/Documents/microservicios_test_udemy/.metadata/.p
 515071093.index
 2042079082.index
 4140052279.index
-3754397140.index
 1617546871.index
 1132406126.index
 1531500397.index
@@ -128,7 +115,6 @@ INDEX VERSION 1.134+/Users/sara/Documents/microservicios_test_udemy/.metadata/.p
 3658563933.index
 3887776353.index
 4102645614.index
-3505325465.index
 3504617572.index
 2493029303.index
 482589542.index
@@ -158,23 +144,18 @@ INDEX VERSION 1.134+/Users/sara/Documents/microservicios_test_udemy/.metadata/.p
 314552458.index
 3455994521.index
 161805110.index
-1763444927.index
 1388471210.index
 3718448992.index
 589849316.index
 1876406346.index
 1109324124.index
-3986973969.index
 2374040262.index
 866567360.index
 3129587951.index
 235455446.index
-311045752.index
-3983220712.index
 827767592.index
 2056040535.index
 1658189227.index
 4285061247.index
 798813849.index
 1327794836.index
-1509784395.index
